@@ -1,0 +1,552 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 10px;
+            background-color: #000; /* Set background color to black */
+            color: #fff; /* Set text color to white */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-color: #000;
+        }
+        /* Navbar styles */
+        .navbar {
+            background-color: black;
+            padding: 10px 0;
+            text-align: right;
+            margin-right: 30px;
+            margin-top: -50px;
+            font-family: Georgia, serif;
+            font-size: 20px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            position: relative;
+        }
+        .navbar a:hover {
+            color: #fac031;
+            border-bottom: 2px solid #fac031; /* Add line under navbar link */
+        }
+        /* Hero section styles */
+        .hero {
+            background-color: black;
+            padding: 100px 0;
+            text-align: left;
+        }
+        /* About section styles */
+        .about {
+            margin-left: 700px;
+            margin-top: -560px;
+            font-size: 17px;
+            padding: 80px 0;
+            text-align: left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+        .about h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        /* Resume section styles */
+        .resume {
+            padding: 80px 0;
+            text-align: center;
+            margin-top: 90px;
+            margin: 90px;
+        }
+        .resume p{
+            font-size: 25px;
+            color: #ccc;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .resume h2 {
+            font-size: 33px;
+            margin-bottom: 30px;
+            font-weight: 900;
+            margin-top: -180px;
+        }
+        /* Project section styles */
+       
+     
+.contact {
+    padding: 80px 0;
+    text-align: center;
+    margin-top: 50px; /* Adjust margin-top to space it properly */
+    display: block; /* Ensure the contact section is displayed */
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    margin-top: -100px;
+    color: #fac031; /* Set text color */
+}
+
+.contact p {
+    font-size: 18px;
+    color: #ccc; /* Set text color */
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.contact-item {
+    text-align: center;
+    flex: 4; /* Each item takes up equal space */
+}
+
+
+.contact-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fac031;
+}
+
+.contact-item p {
+    font-size: 18px;
+    color: #fff; /* Set text color */
+}
+
+        /* Footer styles */
+        .footer {
+            background-color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .name {
+            font-size: 15px;
+            margin-left: 20px;
+            font-family: Georgia, serif;
+        }
+        .highlight {
+            color: #fac031; /* Set text color to highlight color */
+        }
+        .animated-text {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fac031;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left; /* Align text to the left */
+}
+
+.animated-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0; /* Position the cursor at the left side */
+    width: 0;
+    height: 100%;
+    background-color: #ccc;
+    animation: typing-cursor 0.5s ease-in-out infinite;
+}
+#typing-animation {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .navbar-image {
+    width: 300px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    right: 80px; /* Adjust the distance from the right side */
+    transform: translateY(-50%);
+}
+.additional-info {
+    text-align: left;
+    font-family: Georgia, serif;
+    margin-top: 20px;
+}
+
+.additional-info p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Skills section styles */
+.skills {
+    padding: 80px 0;
+    text-align: left;
+    margin-top: -60px;
+    color: gray;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skills h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item span {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+
+.skill-item .pull-right {
+    float: right;
+    font-size: 16px;
+    color: #fff;
+}
+
+.progress {
+    height: 10px; /* Set the height */
+    width: 600px; /* Set the width to make it square */
+    margin-top: 9px;
+    background-color: #fac031;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: baseline; 
+}
+
+.progress1 {
+    height: 10px;
+    margin-top: 8px;
+    background-color: #fac031;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 550px;
+    vertical-align: baseline; 
+}
+
+.progress-bar {
+    background-color: #fac031 !important; /* Set the background color to #fac031 */
+    border-radius: 10px;
+    transition: width 0.6s ease;
+    
+}
+.progress2 {
+    height: 10px;
+    margin-top: 8px;
+    background-color: #fac031;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 580px;
+    vertical-align: baseline; 
+}
+/* Experience section styles */
+.experience {
+    padding: 80px 0;
+    text-align: left;
+    font-size: 27px;
+    font-weight: 900;
+    margin-top: -190px;
+}
+
+.experience .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-item {
+    margin-bottom: 40px;
+}
+
+.internship-details {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #fac031;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.internship-details p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+.internship-details:hover {
+    transform: scale(1.1);
+    z-index: 2; /* Bring the flex item to the front on hover */
+}
+
+
+.section-divider {
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: #fac031;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* Flexbox section styles */
+.flexbox {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.flexbox h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: -90px;
+}
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Align items with space around */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.flex-item {
+    position: relative; /* Add position relative for absolute positioning */
+    flex: 1 1 500px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 20px; /* Add margin around each item */
+    padding: 20px; /* Add padding inside each item */
+    background-color: #333; /* Set background color for each item */
+    border-radius: 30px; /* Add border radius for rounded corners */
+    transition: z-index 0.3s ease; /* Smooth transition for z-index change */
+    z-index: 10; /* Initial z-index */
+    border: 2px solid #fac031;
+}
+
+.flex-item:hover {
+    transform: scale(1.1);
+    z-index: 2; /* Bring the flex item to the front on hover */
+}
+
+
+.flex-item h3 {
+    color: #fac031; /* Set text color for heading */
+    margin-bottom: 20px; /* Add bottom margin for heading */
+}
+
+.flex-item p {
+    color: #fff; /* Set text color for paragraph */
+    font-size: 18px; /* Set font size for paragraph */
+    line-height: 1.5; /* Set line height for paragraph */
+}
+/* Education section styles */
+.education {
+    padding: 80px 0;
+    text-align: center;
+    margin-top: -90px;
+}
+/* Education section styles */
+.education-item {
+    position: relative; /* Position relative for absolute positioning of line */
+}
+
+/* Style for the line at the bottom */
+.section-divider {
+    position: absolute; /* Position absolutely within the education item */
+    bottom: 0; /* Align at the bottom */
+    width: 100%; /* Full width */
+    height: 2px; /* Height of the line */
+    border: none;
+    background-color: transparent; /* Initially transparent */
+    transition: background-color 0.5s; /* Add transition effect */
+}
+
+.education h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.section-divider {
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: #fac031; /* Change the background color */
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+
+/* Flex container styles for education */
+.education .flex-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+/* Flex item styles for education */
+.education .flex-item {
+    flex-basis: calc(40% - 20px); /* Set flex-basis to occupy 50% of container width with margin */
+    margin-bottom: 60px; /* Add margin between items */
+    padding: 20px; /* Add padding inside each item */
+    background-color: #333; /* Set background color for each item */
+    border-radius: 30px; /* Add border radius for rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.education .flex-item:hover {
+    transform: scale(1.05); /* Scale item on hover */
+}
+
+.education .flex-item h3 {
+    color: #fac031; /* Set text color for heading */
+    margin-bottom: 10px; /* Add bottom margin for heading */
+}
+
+.education .flex-item p {
+    color: #fff; /* Set text color for paragraph */
+    font-size: 18px; /* Set font size for paragraph */
+    line-height: 1.5; /* Set line height for paragraph */
+}
+
+/* Project container styles */
+.project-container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.project h2{
+    margin-top: -70px;
+    text-align: center;
+}
+/* Project item styles */
+.project-item {
+    width: 48%; /* Set width for each project item */
+    float: left; /* Float project items to the left */
+    margin-right: 2%; /* Add margin between project items */
+    margin-bottom: 20px; /* Add bottom margin for each project item */
+     /* Set background color for each project item */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden;
+     /* Hide overflow content */
+}
+/* Project container styles */
+.project-container {
+    margin-top: 50px;
+    overflow: hidden;
+    font-size: 0; /* Remove whitespace between inline-block elements */
+}
+
+/* Project item styles */
+
+/* Project image styles */
+.project-item img {
+    width: 70%;
+    height: auto;
+    display: block; /* Center the image */
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* Center horizontally */
+}
+
+.project-item:hover img {
+    transform: scale(1.05); /* Scale item on hover */
+}
+
+
+/* Project description styles */
+.project-description {
+    padding: 20px; /* Add padding inside each project item */
+    color: #fff; /* Set text color */
+}
+
+/* Project description heading styles */
+/* Project description heading styles */
+.project-description p{
+    color: #fac031; /* Set text color for heading */
+    margin-bottom: 10px; /* Add bottom margin for heading */
+    text-align: center; /* Center align the heading */
+}
+
+
+/* Project description paragraph styles */
+.project-description p {
+    color:grey; /* Set text color for paragraph */
+    font-size: 16px; /* Set font size for paragraph */
+    line-height: 1.5; 
+    text-align: center;
+    margin-left: 15px;/* Set line height for paragraph */
+}
+
+/* Clearfix to clear floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.last {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.last img {
+    max-width: 130%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensure text is above the image */
+}
+
+.text-overlay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-overlay p {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+/* Have a Question? section styles */
+.question {
+    margin-top: -90px;
+    background-color: black;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.question h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Social media icon styles */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fac031;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #fff; /* Change color on hover */
+}
